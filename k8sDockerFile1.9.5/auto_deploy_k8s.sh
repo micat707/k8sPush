@@ -1,8 +1,8 @@
 images=(
-gcr.io/google_containers/etcd-amd64:3.1.10
-gcr.io/google_containers/kube-apiserver-amd64:v1.9.5
-gcr.io/google_containers/kube-controller-manager-amd64:v1.9.5
-gcr.io/google_containers/kube-scheduler-amd64:v1.9.5
+etcd-amd64:3.1.10
+kube-apiserver-amd64:v1.9.5
+kube-controller-manager-amd64:v1.9.5
+kube-scheduler-amd64:v1.9.5
 )
 
 for imageName in ${images[@]} ; 
